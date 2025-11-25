@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:5000/api";
+const API_URL = "https://backend-06ig.onrender.com/api";
 
 export async function fetchTransactions() {
   const res = await fetch(`${API_URL}/transactions`);
