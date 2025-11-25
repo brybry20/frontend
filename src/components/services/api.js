@@ -30,7 +30,7 @@ export async function updateTransaction(id, updates) {
   return res.json();
 }
 export async function fetchHistory() {
-  const res = await fetch("http://localhost:5000/api/history");
+  const res = await fetch("https://backend-06ig.onrender.com/api/history");
   if (!res.ok) throw new Error("Failed to fetch history");
   return res.json();
 }
